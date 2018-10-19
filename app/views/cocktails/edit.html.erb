@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <div class="container">
+    <h1> Change the Cocktail name </h1>
+    <%= simple_form_for(@cocktail) do |f| %>
+      <%= f.input :name %>
+      <%= f.submit "Edit a cocktail" %>
+    <% end %>
+  </div>
+</div>
